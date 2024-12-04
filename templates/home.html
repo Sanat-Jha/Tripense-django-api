@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripense - Manage Your Travel Expenses</title>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link rel="shortcut icon" href="{% static 'logo.png' %}" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Animated Project Tag -->
+  <a href="https://sanatjha.me" class="top-right-link">
+    <span>Project by</span> Sanat Jha
+  </a>
+
+  <header class="hero">
+    <div class="container">
+      <img src="{% static 'logo.png' %}" alt="Tripense Logo" class="logo">
+      <h1>Tripense</h1>
+      <p>Effortless Travel Expense Management</p>
+      <a href="{% static 'tripense.apk' %}" class="btn">Download APK</a>
+      <p>Download our completely safe app.</p>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container">
+      <h2>Why Tripense?</h2>
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Track Expenses</h3>
+          <p>Keep a record of the payments done by the group in the trip.</p>
+        </div>
+        <div class="feature-item">
+          <h3>See Budget</h3>
+          <p>Check the total amount spent and the per person budget.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Check Dues</h3>
+          <p>Check who owes who how much to other members for an equal split of bills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Tripense. Project by <a href="https://sanatjha.me">Sanat Jha</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
