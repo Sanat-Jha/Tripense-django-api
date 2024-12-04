@@ -21,16 +21,8 @@
       <img src="{% static 'logo.png' %}" alt="Tripense Logo" class="logo">
       <h1>Tripense</h1>
       <p>Effortless Travel Expense Management</p>
-      <button href="{% static 'tripense.apk' %}" class="btn" id="download-link" target="_blank">Download APK</button>
-      <script>
-        document.getElementById('download-link').addEventListener('click', function (e) {
-            e.preventDefault();
-            var link = document.createElement('a');
-            link.href = "{% static 'tripense.apk' %}";  // Correct path to the APK file
-            link.setAttribute('download', 'tripense.apk');  // Set the default download filename
-            link.click();
-        });
-    </script>
+      <a href="{% static 'tripense.apk' %}" class="btn" id="download-link" download>Download APK</a>
+
       <p>Download our completely safe app.</p>
     </div>
   </header>
