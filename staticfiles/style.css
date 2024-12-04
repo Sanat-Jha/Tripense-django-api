@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'KoHo', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to bottom, #ffffff, #f3f4f6);
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Animated Project Tag */
+  .top-right-link {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .top-right-link:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .top-right-link span {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(90deg, black, white);
+    /* background: linear-gradient(135deg, #007bff, #5cdb95); */
+    color: white;
+    padding: 100px 20px;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .logo {
+    max-width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 60px 20px;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
